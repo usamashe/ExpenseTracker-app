@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  padding: 10px 0;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px auto 20px;
+}
+
+.socialIcon {
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+  color: #fff;
+  font-size: 30px;
+}
+.socialIcon:hover {
+  transform: scale(1.2, 1.2);
+}
